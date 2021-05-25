@@ -17,7 +17,7 @@ contract TorNFT is ERC721, Ownable {
     constructor() public ERC721("TheOsunRiver", "TOR") {}
 
     // Create a function to mint/create the NFT
-    // receiver takes a type of address. This is the address that will the newly minted NFT will belong to when created.
+    // receiver takes a type of address. This is the wallet address of the user we would like to transfer ownership of our newly minted NFT to.
     // tokenURI takes a string that contains metadata about the NFT
     
     function createNFT(address receiver, string memory tokenURI)
