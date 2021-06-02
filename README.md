@@ -28,6 +28,8 @@ Once done with the Getting started bit, you can run this example using the steps
 - Metamask
 - Alchemy
 - IPFS
+- JavaScript
+- Solidity
 
 ### Automated Tests
 
